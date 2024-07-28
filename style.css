@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 2000px;
+}
+
+#git {
+  display: inline-block;
+
+  margin-top: 1999px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header-bg {
+  background-color: #1f0f02;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo span {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 900;
+  margin-left: 10px;
+  color: #F03C2E;
+}
+
+.logo-img {
+  width: 9.25rem;
+}
+
+.bars {
+  cursor: pointer;
+}
+
+.bar {
+  width: 32px;
+  height: 4px;
+  background-color: #d8d8d8;
+  border-radius: 3px;
+}
+
+.bar + .bar {
+  margin-top: 5px;
+}
+
+.hamburguer {
+  display: none;
+}
+
+.hamburguer.ativo {
+  display: block;
+  background-color: #1f0f02;
+  padding: 20px;
+  position: absolute;
+  right: -156px;
+  top: 102px;
+}
+
+.nav-hamburguer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px 20px;
+  justify-items: center;
+}
+
+.nav-hamburguer a {
+  color: #F03C2E;
+  font-size: 1.25rem;
+}

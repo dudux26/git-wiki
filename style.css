@@ -24,6 +24,24 @@ li {
   list-style: none;
 }
 
+p {
+  font-size: 1.125rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+  color: #F03C2E;
+}
+
+span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #580a05;
+  display: block;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -89,7 +107,8 @@ img {
   padding: 20px;
   position: absolute;
   right: -156px;
-  top: 102px;
+  top: 92px;
+  border-radius: 0 0 16px 16px;
 }
 
 .nav-hamburguer {
@@ -102,4 +121,27 @@ img {
 .nav-hamburguer a {
   color: #F03C2E;
   font-size: 1.25rem;
+}
+
+.mapa-mental {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 37px 1fr 1fr 1fr;
+  gap: 0px 10px;
+  align-items: center;
+}
+
+.mapa-mental h2 {
+  grid-column: 1 /-1;
+}
+
+.mapa-mental-img {
+  grid-row: span 2;
+}
+
+.mapa-mental p:last-child {
+  grid-column: 1/-1;
+  align-self: self-start;
+  margin-top: 20px;
 }

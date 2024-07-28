@@ -24,7 +24,7 @@
       <div class="hamburguer" id="hamburguer">
         <nav>
           <ul class="nav-hamburguer">
-            <li><a href="#">git init</a></li>
+            <li><a href="#init">git init</a></li>
             <li><a href="#">git add</a></li>
             <li><a href="#">git commit</a></li>
             <li><a href="#">git push</a></li>
@@ -36,13 +36,19 @@
 
     </div>
 
-    
-
-    
-
   </header>
 
-  <p id="git">git</p>
+  <main>
+    <section class="mapa-mental container">
+      <h2>Forma de trabalho do git</h2>
+      <p><span>Working Directory:</span> É o diretório aonde você vai estar trabalhando, esse diretório é criado quando você vai lá no repositório e pega a base do sistema traz ele para sua máquina pra começar a ajudar o desenvolvimento, então tudo que você estiver fazendo, tudo que você estiver codificando naquela hora está dentro do primeiro estágio.</p>
+      <div class="mapa-mental-img">
+        <img src="assets/git-mapa-mental.png" alt="">
+      </div>
+      <p><span>Staging Area (git add):</span> Arquivos que estavam sendo editados passam para uma sala de espera que é o staging area, essa sala de espera é onde os arquivos que você já modificou ficam antes de serem enviados de volta para o repositório quando você der git commit esses arquivos vão ir para o repositório final.</p>
+      <p><span>Repository (git commit):</span> Esse é o estágio final que é o repositório principal do projeto, e é justamente essa divisão, esses estágios que nós acabamos de ver que dão alguém de uma flexibilidade uma confiabilidade muito maior em relação aos outros sistemas de controle de versão.</p>
+    </section>
+  </main>
 
   <script src="script.js"></script>
 </body>

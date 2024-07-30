@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon">
   <title>Git Wiki</title>
@@ -25,11 +28,11 @@
         <nav>
           <ul class="nav-hamburguer">
             <li><a href="#init">git init</a></li>
-            <li><a href="#">git add</a></li>
-            <li><a href="#">git commit</a></li>
-            <li><a href="#">git push</a></li>
-            <li><a href="#">git pull</a></li>
-            <li><a href="#git">git clone</a></li>
+            <li><a href="#add">git add</a></li>
+            <li><a href="#commit">git commit</a></li>
+            <li><a href="#push">git push</a></li>
+            <li><a href="#pull">git pull</a></li>
+            <li><a href="#clone">git clone</a></li>
           </ul>
         </nav>
       </div>
@@ -43,10 +46,15 @@
       <h2>Forma de trabalho do git</h2>
       <p><span>Working Directory:</span> É o diretório aonde você vai estar trabalhando, esse diretório é criado quando você vai lá no repositório e pega a base do sistema traz ele para sua máquina pra começar a ajudar o desenvolvimento, então tudo que você estiver fazendo, tudo que você estiver codificando naquela hora está dentro do primeiro estágio.</p>
       <div class="mapa-mental-img">
-        <img src="assets/git-mapa-mental.png" alt="">
+        <img src="assets/git-mapa-mental.png">
       </div>
       <p><span>Staging Area (git add):</span> Arquivos que estavam sendo editados passam para uma sala de espera que é o staging area, essa sala de espera é onde os arquivos que você já modificou ficam antes de serem enviados de volta para o repositório quando você der git commit esses arquivos vão ir para o repositório final.</p>
       <p><span>Repository (git commit):</span> Esse é o estágio final que é o repositório principal do projeto, e é justamente essa divisão, esses estágios que nós acabamos de ver que dão alguém de uma flexibilidade uma confiabilidade muito maior em relação aos outros sistemas de controle de versão.</p>
+    </section>
+
+    <section class="init container" id="init">
+      <h2>Git Init</h2>
+      <p>Esse comando cria um repositório vazio - basicamente .git diretório com sub-diretórios para <span class="middle-text">object</span>, <span class="middle-text">refs/heads</span>, <span class="middle-text">refs/tags</span>, e um template de arquivos. Também cria um branch inicial sem commits ()</p>
     </section>
   </main>
 

@@ -29,8 +29,9 @@ p {
 }
 
 h2 {
+  font-family: "Kanit", sans-serif;
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: 600;
   margin-bottom: 10px;
   color: #F03C2E;
 }
@@ -40,6 +41,12 @@ span {
   font-weight: bold;
   color: #580a05;
   display: block;
+}
+
+.middle-text {
+  color: #F03C2E;
+  font-weight: 500;
+  display: inline-block;
 }
 
 img {
@@ -145,3 +152,6 @@ img {
   align-self: self-start;
   margin-top: 20px;
 }
+
+/* ==================== */
+
